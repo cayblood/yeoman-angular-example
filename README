@@ -1,0 +1,21 @@
+INSTALLATION INSTRUCTIONS
+1) install nodejs (brew install nodejs on osx)
+2) install ruby (needed for compass utility, not for deployment)
+3) gem install bundler
+4) bundle
+5) npm install
+6) bower install
+
+TO BUILD FOR DEPLOYMENT
+1) grunt build
+2) deployable app will be in dist dir
+
+TO RUN TESTS
+1) grunt test:unit
+2) grunt test:e2e
+
+TO DEVELOP
+1) grunt serve
+2) open browser to http://localhost:9000
+3) edit files in app/ and test/ dirs
+4) web app is automatically reloaded when files are saved
